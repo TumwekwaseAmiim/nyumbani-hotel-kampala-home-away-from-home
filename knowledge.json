@@ -1,0 +1,799 @@
+{
+  "assistant": {
+
+    "name": "Nyumbani Virtual Receptionist",
+
+    "role": "24/7 Digital Hotel Assistant",
+
+    "personality": "Warm, professional, welcoming and helpful",
+
+    "greeting": "Welcome to Nyumbani Hotel Kampala 🌿 How may I assist you today?",
+
+    "purpose": "Help guests with hotel information, accommodation, restaurant, events, facilities, location and reservations."
+
+  },
+
+
+  "hotel": {
+
+    "name": "Nyumbani Hotel Kampala",
+
+    "slogan": "Your Home Away From Home in Kampala",
+
+    "tagline": "Where Comfort Feels Like Home",
+
+    "location": "Makerere Kikoni, Kampala, Uganda",
+
+    "address": "George Sserwadda Road, Plot 404/405, Makerere Kikoni, P.O. Box 33506, Kampala Uganda",
+
+    "description": "Nyumbani Hotel Kampala offers comfortable accommodation, quality dining, events and warm hospitality for business travellers, tourists, families and guests visiting Kampala.",
+
+
+    "experience": "A peaceful, comfortable and welcoming hotel environment combining accommodation, dining, celebrations and business facilities.",
+
+
+    "keywords": [
+
+      "hotel",
+      "accommodation",
+      "stay",
+      "lodging",
+      "rooms",
+      "kampala hotel",
+      "makerere hotel",
+      "place to stay",
+      "guest house",
+      "holiday"
+
+    ],
+
+
+    "nearby_places": [
+
+      "Makerere University",
+
+      "Kampala City",
+
+      "Kasubi Tombs",
+
+      "Uganda Wildlife Authority offices"
+
+    ]
+
+  },
+
+
+
+  "contact": {
+
+
+    "phone": [
+
+      "+256 703 016 174",
+
+      "+256 392 569 626"
+
+    ],
+
+
+    "display_phone": [
+
+      "0703 016 174",
+
+      "0783 660 537"
+
+    ],
+
+
+    "email": [
+
+      "reservations@nyumbanihotels.co.ug",
+
+      "info@nyumbanihotels.co.ug"
+
+    ],
+
+
+    "website": "https://www.nyumbanihotels.co.ug",
+
+
+    "google_maps": "https://maps.google.com/?cid=4395363994724335363",
+
+
+    "message": "For reservations, enquiries and assistance, guests can contact Nyumbani Hotel reception."
+
+  },
+
+
+
+  "booking": {
+
+
+    "available": true,
+
+
+    "process": [
+
+      "Guest provides name",
+
+      "Guest provides phone number",
+
+      "Guest selects preferred room type",
+
+      "Guest provides check-in date",
+
+      "Guest provides check-out date",
+
+      "Reservations team confirms availability and booking"
+
+    ],
+
+
+    "booking_methods": [
+
+      "Contact hotel reception",
+
+      "Visit official website",
+
+      "Send reservation enquiry"
+
+    ],
+
+
+    "booking_message": "Thank you for choosing Nyumbani Hotel Kampala. Our reservations team will assist you with your booking.",
+
+
+    "required_information": [
+
+      "Full name",
+
+      "Phone number",
+
+      "Room preference",
+
+      "Arrival date",
+
+      "Departure date"
+
+    ]
+
+  },
+
+  "rooms": {
+
+
+    "overview": "Nyumbani Hotel Kampala has 55 comfortable guest rooms including Deluxe Single, Deluxe Double and Executive Rooms. Each room is designed to provide a relaxing and homely experience for business and leisure travellers.",
+
+
+
+    "common_questions": [
+
+      "What rooms do you have?",
+
+      "How much is accommodation?",
+
+      "Do rooms have Wi-Fi?",
+
+      "Do rooms have DSTV?",
+
+      "Which room is best for business travellers?",
+
+      "Do you have executive rooms?"
+
+    ],
+
+
+
+    "room_types": [
+
+
+
+      {
+
+        "name": "Deluxe Single Room",
+
+        "keywords": [
+
+          "single room",
+
+          "one person room",
+
+          "individual room",
+
+          "alone"
+
+        ],
+
+
+        "price": "$50 per night",
+
+
+        "capacity": "1 adult",
+
+
+        "size": "Approximately 20 square meters",
+
+
+        "bed": "King size bed",
+
+
+        "description": "A comfortable room ideal for a single guest looking for a relaxing and affordable stay in Kampala.",
+
+
+        "facilities": [
+
+          "Free Wi-Fi",
+
+          "Private bathroom with shower",
+
+          "Work desk",
+
+          "Breakfast",
+
+          "Daily housekeeping",
+
+          "Air conditioner",
+
+          "TV with over 20 satellite channels",
+
+          "24 hour room service",
+
+          "Spa access",
+
+          "Slippers",
+
+          "Free toiletries"
+
+        ]
+
+      },
+
+
+
+
+      {
+
+        "name": "Deluxe Double Room",
+
+
+        "keywords": [
+
+          "double room",
+
+          "couple room",
+
+          "two people room",
+
+          "family room"
+
+        ],
+
+
+        "price": "$55 per night",
+
+
+        "capacity": "2 adults",
+
+
+        "size": "Approximately 26 square meters",
+
+
+        "bed": "King size bed",
+
+
+        "description": "A warm and comfortable room designed for couples or guests travelling together.",
+
+
+        "facilities": [
+
+          "Free Wi-Fi",
+
+          "Private bathroom with shower",
+
+          "Work desk",
+
+          "Breakfast",
+
+          "Daily housekeeping",
+
+          "Fan",
+
+          "TV with over 20 satellite channels",
+
+          "24 hour room service",
+
+          "Spa access",
+
+          "Slippers",
+
+          "Free toiletries"
+
+        ]
+
+      },
+
+
+
+
+      {
+
+        "name": "Executive Room",
+
+
+        "keywords": [
+
+          "executive",
+
+          "luxury room",
+
+          "business room",
+
+          "premium room"
+
+        ],
+
+
+        "price": "$65 per night",
+
+
+        "capacity": "2 adults",
+
+
+        "size": "Approximately 28 square meters",
+
+
+        "bed": "Queen size bed",
+
+
+        "description": "A spacious premium room suitable for business travellers and guests looking for extra comfort.",
+
+
+        "facilities": [
+
+          "Free Wi-Fi",
+
+          "Private bathroom with shower",
+
+          "Work desk",
+
+          "Breakfast",
+
+          "Daily housekeeping",
+
+          "Air conditioner",
+
+          "Sitting area",
+
+          "Bathrobe",
+
+          "Slippers",
+
+          "TV with over 20 satellite channels",
+
+          "24 hour room service",
+
+          "Spa access",
+
+          "Free toiletries"
+
+        ]
+
+      }
+
+    ]
+
+  },
+
+
+
+
+
+  "restaurant": {
+
+
+    "name": "Nyumbani Hotel Restaurant",
+
+
+    "description": "Nyumbani Hotel Restaurant serves freshly prepared meals using quality regional products in a comfortable and relaxed atmosphere.",
+
+
+
+    "services": [
+
+      "Breakfast buffet",
+
+      "Hot breakfast options",
+
+      "Continental breakfast",
+
+      "Lunch",
+
+      "Dinner",
+
+      "Continental dishes",
+
+      "Wine",
+
+      "Cocktails"
+
+    ],
+
+
+
+    "hours": {
+
+
+      "restaurant": "6:30 AM - 12:00 AM",
+
+
+      "bar": "12:00 PM - 12:00 AM"
+
+    },
+
+
+
+    "questions": [
+
+      "Do you have a restaurant?",
+
+      "What food do you serve?",
+
+      "What time does the restaurant open?",
+
+      "Do you serve breakfast?",
+
+      "Do you have a bar?"
+
+    ]
+
+  },
+
+
+
+
+
+
+  "events": {
+
+
+    "description": "Nyumbani Hotel Kampala provides elegant venues for weddings, celebrations, meetings and private events.",
+
+
+
+    "event_types": [
+
+      "Weddings",
+
+      "Anniversaries",
+
+      "Birthday parties",
+
+      "Baby showers",
+
+      "Business meetings",
+
+      "Conferences",
+
+      "Private dining",
+
+      "Celebrations"
+
+    ],
+
+
+
+    "capacity": "Event halls can accommodate approximately 130 to 500 guests.",
+
+
+
+    "facilities": [
+
+      "Private dining rooms",
+
+      "Audio visual facilities",
+
+      "Covered patio areas",
+
+      "Customizable menus"
+
+    ],
+
+
+
+    "questions": [
+
+      "Can I hold a wedding?",
+
+      "Do you have a conference hall?",
+
+      "Can you host 300 people?",
+
+      "Do you provide event catering?"
+
+    ]
+
+  },
+  
+  "facilities": {
+
+
+    "available": [
+
+      "High speed Wi-Fi",
+
+      "Restaurant",
+
+      "Bar",
+
+      "Conference rooms",
+
+      "Banquet facilities",
+
+      "Gym",
+
+      "Spa",
+
+      "Steam and sauna",
+
+      "Workstation facilities",
+
+      "Computers",
+
+      "Printers",
+
+      "Scanners",
+
+      "Photocopiers",
+
+      "Airport transfers",
+
+      "City transfers",
+
+      "Good security"
+
+    ],
+
+
+    "description": "Nyumbani Hotel provides modern facilities designed for business travellers, tourists and guests seeking comfort during their stay."
+
+  },
+
+
+
+
+
+  "guest_services": {
+
+
+    "check_in": "Guests can contact reception for check-in arrangements and room availability.",
+
+
+    "check_out": "Guests should confirm their departure arrangements with hotel reception.",
+
+
+    "wifi": "Free high speed Wi-Fi is available for guests.",
+
+
+    "security": "Nyumbani Hotel provides a secure and comfortable environment for all guests.",
+
+
+    "airport_transfer": "Airport and city transfer services are available.",
+
+
+    "workstation": "Guests can work from the hotel using workstation facilities with computers, fast internet, printers, scanners and photocopiers."
+
+  },
+
+
+
+
+
+  "popular_questions": [
+
+
+
+    {
+
+      "question": "Where is Nyumbani Hotel located?",
+
+      "answer": "Nyumbani Hotel Kampala is located at George Sserwadda Road, Plot 404/405, Makerere Kikoni, Kampala Uganda."
+
+    },
+
+
+
+    {
+
+      "question": "How many rooms does Nyumbani Hotel have?",
+
+      "answer": "Nyumbani Hotel has 55 comfortable guest rooms including Deluxe Single, Deluxe Double and Executive Rooms."
+
+    },
+
+
+
+    {
+
+      "question": "Do you provide Wi-Fi?",
+
+      "answer": "Yes. Nyumbani Hotel provides free high speed Wi-Fi for guests."
+
+    },
+
+
+
+    {
+
+      "question": "Do you host weddings?",
+
+      "answer": "Yes. Nyumbani Hotel hosts weddings, celebrations, meetings and private events."
+
+    },
+
+
+
+    {
+
+      "question": "How many people can your halls accommodate?",
+
+      "answer": "Our event halls can accommodate approximately 130 to 500 guests."
+
+    },
+
+
+
+    {
+
+      "question": "What is the cheapest room?",
+
+      "answer": "The Deluxe Single Room starts from $50 per night."
+
+    }
+
+  ],
+
+
+
+
+
+  "conversation_examples": {
+
+
+    "greetings": [
+
+      "hello",
+
+      "hi",
+
+      "hey",
+
+      "good morning",
+
+      "good evening"
+
+    ],
+
+
+
+    "room_questions": [
+
+      "How much is a room?",
+
+      "I need accommodation",
+
+      "Do you have executive rooms?",
+
+      "What is your cheapest room?"
+
+    ],
+
+
+
+    "restaurant_questions": [
+
+      "Do you have food?",
+
+      "Where can I eat?",
+
+      "Do you serve breakfast?"
+
+    ],
+
+
+
+    "event_questions": [
+
+      "Can I hold a wedding?",
+
+      "Do you have conference rooms?",
+
+      "Can you host a party?"
+
+    ],
+
+
+
+    "contact_questions": [
+
+      "How can I contact you?",
+
+      "Where are you located?",
+
+      "Give me directions"
+
+    ]
+
+  },
+
+
+
+
+
+
+
+  "assistant_actions": {
+
+
+    "unknown_question": "I would be happy to help. Please ask me about rooms, restaurant, events, facilities, location or reservations.",
+
+
+
+    "after_chat": {
+
+
+      "message": "Thank you for chatting with Nyumbani Hotel Kampala 🌿 Would you like to visit our official website or contact reception?",
+
+
+
+      "options": [
+
+        "Visit Official Website",
+
+        "Call Reception",
+
+        "Continue Chat"
+
+      ]
+
+    }
+
+  },
+
+
+
+
+
+
+  "social_presence": {
+
+
+    "website": "https://www.nyumbanihotels.co.ug",
+
+
+    "google_maps": "https://maps.google.com/?cid=4395363994724335363"
+
+  },
+
+
+
+
+
+
+  "brand": {
+
+
+    "primary_color": "#7A0019",
+
+
+    "accent_color": "#D4AF37",
+
+
+    "style": "Premium, warm, professional hospitality",
+
+
+    "experience": "A calm and welcoming hotel experience where guests feel at home."
+
+  }
+
+
+}
