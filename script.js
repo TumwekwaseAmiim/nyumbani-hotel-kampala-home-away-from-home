@@ -940,12 +940,40 @@ For more assistance contact reception.
 
 function contains(text,words){
 
+    return words.some(
+        word => text.includes(word)
+    );
 
-return words.some(
+}
 
-word => text.includes(word)
 
-);
 
+// ==========================================
+// SHARE NYUMBANI HOTEL
+// ==========================================
+
+
+function shareNyumbani(){
+
+    if (navigator.share){
+
+        navigator.share({
+
+            title: "Nyumbani Hotel Kampala",
+
+            text: "Discover Comfort, Dining & Hospitality at Nyumbani Hotel Kampala. Your Home Away From Home in Kampala.",
+
+            url: window.location.href
+
+        });
+
+    } else {
+
+        alert(
+            "Share this Nyumbani Hotel Kampala link: " 
+            + window.location.href
+        );
+
+    }
 
 }

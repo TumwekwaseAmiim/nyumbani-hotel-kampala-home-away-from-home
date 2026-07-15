@@ -541,9 +541,7 @@ CHAT WINDOW
 FOOTER
 ========================================== */
 
-
 footer{
-
 
     background:#40000D;
 
@@ -553,14 +551,53 @@ footer{
 
     padding:30px;
 
-    line-height:1.8;
+    position:relative;
 
+}
+
+
+.footer-share{
+
+    position:absolute;
+
+    right:30px;
+
+    top:25px;
+
+}
+
+
+.share-btn{
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    border:2px solid #D4AF37;
+
+    background:#D4AF37;
+
+    color:#7A0019;
+
+    font-weight:bold;
+
+    cursor:pointer;
 
 }
 
 
 
+@media(max-width:768px){
 
+    .footer-share{
+
+        position:static;
+
+        margin-bottom:20px;
+
+    }
+
+}
 
 /* ==========================================
 RESPONSIVE
